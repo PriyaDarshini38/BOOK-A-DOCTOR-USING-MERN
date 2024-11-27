@@ -1,53 +1,70 @@
-Overview
-Book a Doctor is an easy-to-use online platform that allows users to quickly and efficiently book doctor's appointments. Say goodbye to the hassle of traditional appointment booking! Our user-friendly interface lets users browse through a variety of doctors, filter based on specialties, locations, and availability, and book appointments with just a few clicks. The system provides real-time availability, making it simple to schedule appointments that fit into your busy life.
+# Getting Started with Create React App
 
-This platform is built using the MERN stack (MongoDB, Express.js, React, Node.js) for a seamless, responsive, and fast experience across both front-end and back-end.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Features
-1. User Registration
-Patients can register on the platform by providing their email address and creating a secure password.
-Once registered, users can log in to view their personalized dashboard.
-2. Browse and Filter Doctors
-After logging in, users can browse a list of available doctors and healthcare providers.
-Doctors can be filtered based on specialty, location, and availability to help users find the best match for their needs.
-3. Booking Appointments
-Users can select a doctor and book an appointment by choosing from available time slots.
-The platform allows users to upload necessary documents, such as medical records or insurance information, during the booking process.
-Upon submitting the appointment request, users receive a confirmation message indicating that their request has been received.
-4. Appointment Confirmation & Notifications
-Doctors review the appointment requests and confirm them based on their availability.
-Users receive a notification when their appointment is confirmed, along with the date, time, and location details.
-5. Appointment Management
-Users can manage their appointments, including rescheduling or cancelling upcoming appointments directly from their dashboard.
-The appointment status will be updated accordingly, and users will receive relevant notifications.
-6. Admin Panel
-The platform has an admin panel where admins can manage doctor registrations and approve new doctors.
-Admins also ensure compliance with platform policies and maintain smooth user operations by overseeing appointment data.
-7. Doctor’s Dashboard
-Doctors can log in to view their schedule, confirm or reschedule appointments, and update the status of upcoming appointments.
-Doctors have the ability to manage all appointments from their dashboard, enhancing their experience on the platform.
-8. Post-Appointment Follow-up
-After the appointment, doctors can update the patient’s medical records and provide follow-up instructions or prescriptions through the platform.
-Patients receive a summary of the consultation and any recommended treatments or next steps.
-Technical Architecture
-This project follows a client-server model using the MERN stack. Below is a detailed overview of the technologies used:
+## Available Scripts
 
-Frontend:
-React: The user interface is built using React, making it highly responsive and interactive.
-Material UI & Bootstrap: These libraries are used to ensure a modern and user-friendly UI.
-Axios: For making HTTP requests to the backend API, facilitating smooth communication between the frontend and backend.
+In the project directory, you can run:
 
-Backend:
-Node.js & Express.js: The backend uses Node.js for handling server-side logic and Express.js as a framework for routing and managing API requests.
-MongoDB: The database used for storing user profiles, doctor information, appointment data, etc. MongoDB ensures scalability and efficient data storage.
+### `npm start`
 
-Key Libraries and Tools:
-Moment.js: To handle date and time functionalities, ensuring accurate appointment scheduling.
-JWT (JSON Web Token): For secure user authentication and authorization.
-Architecture Diagram:
-The platform operates on a client-server architecture where the frontend interacts with the backend through RESTful APIs. The backend stores data in MongoDB, and real-time data handling ensures smooth operations for users, doctors, and admins.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-Future Improvements
-Payment Integration: Allow patients to make payments for consultations through the platform.
-Video Consultation: Implement online video consultation for remote patient care.
-Ratings & Reviews: Allow users to rate and review doctors after appointments to enhance the platform’s transparency.
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
+
+### `npm test`
+
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
