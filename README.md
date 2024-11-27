@@ -1,10 +1,10 @@
-Book a Doctor using MERN
-Overview
+# Book a Doctor using MERN
+## Overview
 Book a Doctor is an easy-to-use online platform that allows users to quickly and efficiently book doctor's appointments. Say goodbye to the hassle of traditional appointment booking! Our user-friendly interface lets users browse through a variety of doctors, filter based on specialties, locations, and availability, and book appointments with just a few clicks. The system provides real-time availability, making it simple to schedule appointments that fit into your busy life.
 
 This platform is built using the MERN stack (MongoDB, Express.js, React, Node.js) for a seamless, responsive, and fast experience across both front-end and back-end.
 
-Features
+### Features
 1. User Registration
 Patients can register on the platform by providing their email address and creating a secure password.
 Once registered, users can log in to view their personalized dashboard.
@@ -33,11 +33,11 @@ Patients receive a summary of the consultation and any recommended treatments or
 Technical Architecture
 This project follows a client-server model using the MERN stack. Below is a detailed overview of the technologies used:
 
-Frontend:
+#### Frontend:
 React: The user interface is built using React, making it highly responsive and interactive.
 Material UI & Bootstrap: These libraries are used to ensure a modern and user-friendly UI.
 Axios: For making HTTP requests to the backend API, facilitating smooth communication between the frontend and backend.
-Backend:
+##### Backend:
 Node.js & Express.js: The backend uses Node.js for handling server-side logic and Express.js as a framework for routing and managing API requests.
 MongoDB: The database used for storing user profiles, doctor information, appointment data, etc. MongoDB ensures scalability and efficient data storage.
 Key Libraries and Tools:
@@ -47,7 +47,7 @@ Architecture Diagram:
 The platform operates on a client-server architecture where the frontend interacts with the backend through RESTful APIs. The backend stores data in MongoDB, and real-time data handling ensures smooth operations for users, doctors, and admins.
 
 Setup Instructions
-Prerequisites:
+##### Prerequisites:
 Node.js: Ensure that Node.js is installed on your system.
 MongoDB: Set up a local or cloud-based MongoDB instance.
 Git: Clone the repository to your local machine.
@@ -69,7 +69,7 @@ Copy code
 npm start
 Visit http://localhost:3000 to start using the platform.
 
-Future Improvements
+###### Future Improvements
 Payment Integration: Allow patients to make payments for consultations through the platform.
 Video Consultation: Implement online video consultation for remote patient care.
 Ratings & Reviews: Allow users to rate and review doctors after appointments to enhance the platform’s transparency.
