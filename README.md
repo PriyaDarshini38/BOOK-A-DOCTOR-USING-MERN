@@ -33,10 +33,23 @@ Patients receive a summary of the consultation and any recommended treatments or
 Technical Architecture
 This project follows a client-server model using the MERN stack. Below is a detailed overview of the technologies used:
 
+### Tech Stack
+
+->MongoDB: A NoSQL database for flexible and scalable data storage.
+
+->Express: A web application framework for building the backend server.
+
+->React: A JavaScript library for building the user interface with a component-based architecture.
+
+->Node.js: A JavaScript runtime for server-side programming.
+
+->Additional Tools: Axios for making HTTP requests, JWT for secure authentication, and CSS/Bootstrap for styling the user interface.
+
 ### Frontend:
 React: The user interface is built using React, making it highly responsive and interactive.
 Material UI & Bootstrap: These libraries ensure a modern and user-friendly UI.
 Axios: For making HTTP requests to the backend API, facilitating smooth communication between the front and back end.
+
 ### Backend:
 Node.js & Express.js: The backend uses Node.js to handle server-side logic and Express.js as a framework for routing and managing API requests.
 MongoDB: The database storing user profiles, doctor information, appointment data, etc. MongoDB ensures scalability and efficient data storage.
@@ -46,7 +59,7 @@ JWT (JSON Web Token): For secure user authentication and authorization.
 ### Architecture Diagram:
 The platform operates on a client-server architecture where the front end interacts with the backend through RESTful APIs. The backend stores data in MongoDB, and real-time data handling ensures smooth operations for users, doctors, and admins.
 
-Setup Instructions
+
 ### Prerequisites:
 Node.js: Ensure that Node.js is installed on your system.
 MongoDB: Set up a local or cloud-based MongoDB instance.
