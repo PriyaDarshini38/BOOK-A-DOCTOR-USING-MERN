@@ -1,4 +1,3 @@
-Book a Doctor using MERN
 Overview
 Book a Doctor is an easy-to-use online platform that allows users to quickly and efficiently book doctor's appointments. Say goodbye to the hassle of traditional appointment booking! Our user-friendly interface lets users browse through a variety of doctors, filter based on specialties, locations, and availability, and book appointments with just a few clicks. The system provides real-time availability, making it simple to schedule appointments that fit into your busy life.
 
