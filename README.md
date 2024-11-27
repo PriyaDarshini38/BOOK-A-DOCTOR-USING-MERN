@@ -33,21 +33,21 @@ Patients receive a summary of the consultation and any recommended treatments or
 Technical Architecture
 This project follows a client-server model using the MERN stack. Below is a detailed overview of the technologies used:
 
-#### Frontend:
+### Frontend:
 React: The user interface is built using React, making it highly responsive and interactive.
 Material UI & Bootstrap: These libraries ensure a modern and user-friendly UI.
 Axios: For making HTTP requests to the backend API, facilitating smooth communication between the front and back end.
-##### Backend:
+### Backend:
 Node.js & Express.js: The backend uses Node.js to handle server-side logic and Express.js as a framework for routing and managing API requests.
 MongoDB: The database storing user profiles, doctor information, appointment data, etc. MongoDB ensures scalability and efficient data storage.
 Key Libraries and Tools:
 Moment.js: To handle date and time functionalities, ensuring accurate appointment scheduling.
 JWT (JSON Web Token): For secure user authentication and authorization.
-Architecture Diagram:
+### Architecture Diagram:
 The platform operates on a client-server architecture where the front end interacts with the backend through RESTful APIs. The backend stores data in MongoDB, and real-time data handling ensures smooth operations for users, doctors, and admins.
 
 Setup Instructions
-##### Prerequisites:
+### Prerequisites:
 Node.js: Ensure that Node.js is installed on your system.
 MongoDB: Set up a local or cloud-based MongoDB instance.
 Git: Clone the repository to your local machine.
@@ -69,7 +69,7 @@ bash
 npm start
 
 
-###### Future Improvements
+### Future Improvements
 Payment Integration: Allow patients to make payments for consultations through the platform.
 Video Consultation: Implement online video consultation for remote patient care.
 Ratings & Reviews: Allow users to rate and review doctors after appointments to enhance the platform’s transparency.
