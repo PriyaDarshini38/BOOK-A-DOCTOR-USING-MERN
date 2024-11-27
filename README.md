@@ -19,14 +19,14 @@ Upon submitting the appointment request, users receive a confirmation message in
 Doctors review the appointment requests and confirm them based on their availability.
 Users receive a notification when their appointment is confirmed, along with the date, time, and location details.
 5. Appointment Management
-Users can manage their appointments, including rescheduling or cancelling upcoming appointments directly from their dashboard.
+Users can manage their appointments, including rescheduling or canceling upcoming appointments directly from their dashboard.
 The appointment status will be updated accordingly, and users will receive relevant notifications.
 6. Admin Panel
 The platform has an admin panel where admins can manage doctor registrations and approve new doctors.
-Admins also ensure compliance with platform policies and maintain smooth user operations by overseeing appointment data.
+Admins also ensure platform policy compliance and smooth user operations by overseeing appointment data.
 7. Doctor’s Dashboard
 Doctors can log in to view their schedule, confirm or reschedule appointments, and update the status of upcoming appointments.
-Doctors have the ability to manage all appointments from their dashboard, enhancing their experience on the platform.
+Doctors can manage all appointments from their dashboard, enhancing their experience on the platform.
 8. Post-Appointment Follow-up
 After the appointment, doctors can update the patient’s medical records and provide follow-up instructions or prescriptions through the platform.
 Patients receive a summary of the consultation and any recommended treatments or next steps.
@@ -35,16 +35,16 @@ This project follows a client-server model using the MERN stack. Below is a deta
 
 #### Frontend:
 React: The user interface is built using React, making it highly responsive and interactive.
-Material UI & Bootstrap: These libraries are used to ensure a modern and user-friendly UI.
-Axios: For making HTTP requests to the backend API, facilitating smooth communication between the frontend and backend.
+Material UI & Bootstrap: These libraries ensure a modern and user-friendly UI.
+Axios: For making HTTP requests to the backend API, facilitating smooth communication between the front and back end.
 ##### Backend:
-Node.js & Express.js: The backend uses Node.js for handling server-side logic and Express.js as a framework for routing and managing API requests.
-MongoDB: The database used for storing user profiles, doctor information, appointment data, etc. MongoDB ensures scalability and efficient data storage.
+Node.js & Express.js: The backend uses Node.js to handle server-side logic and Express.js as a framework for routing and managing API requests.
+MongoDB: The database storing user profiles, doctor information, appointment data, etc. MongoDB ensures scalability and efficient data storage.
 Key Libraries and Tools:
 Moment.js: To handle date and time functionalities, ensuring accurate appointment scheduling.
 JWT (JSON Web Token): For secure user authentication and authorization.
 Architecture Diagram:
-The platform operates on a client-server architecture where the frontend interacts with the backend through RESTful APIs. The backend stores data in MongoDB, and real-time data handling ensures smooth operations for users, doctors, and admins.
+The platform operates on a client-server architecture where the front end interacts with the backend through RESTful APIs. The backend stores data in MongoDB, and real-time data handling ensures smooth operations for users, doctors, and admins.
 
 Setup Instructions
 ##### Prerequisites:
@@ -59,15 +59,15 @@ Start the Backend:
 In the backend directory, run:
 
 bash
-Copy code
+
 npm start
+
 Start the Frontend:
 In the frontend directory, run:
-
 bash
-Copy code
+
 npm start
-Visit http://localhost:3000 to start using the platform.
+
 
 ###### Future Improvements
 Payment Integration: Allow patients to make payments for consultations through the platform.
